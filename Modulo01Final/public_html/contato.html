@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>Contato</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+    <body> 
+        <header>
+            <img src="img/logo.jpg" alt="Logo tipo de sorriso">
+            <h1> Central de odontologia</h1>
+            <nav>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html"> Home</a></li>
+                        <li><a href="consulta.html"> Consulta</a></li>
+                        <li><a href="Consultorios.html"> Consultorios</a></li>
+                        <li><a href="videos.html"> Videos</a></li>
+                        <li><a href="galeria.html"> Galeria</a></li>
+                        <li><a href="Contato.html"> Contato</a></li>
+                    </ul>    
+                </div>
+            </nav>
+        </header>  
+        <div id="conteiner"> 
+            <div id="pagina">
+                <div>
+                    <form id="contato" action="recebemos.html" method="post">
+                        Nome<br/>
+                        <input type="text" name="nome" required="required" placeholder="Ex: José Nascimento"><br>
+                        Senha<br/>
+                        <input type="password" name="nome" placeholder="************"><br>
+                        Email<br/>
+                        <input type="email" name="email" placeholder="Ex: odontologia@hotmail.com"><br>
+                       <!-- Range<br/>
+                        <input type="range" name="range"><br>
+                        Cor<br/>
+                        <input type="color" name="cor"><br> -->
+                        <label for="phonenum">Número de telefone:</label><br>
+                        <input pattern="^\d{3}\s\d{1}\s\d{4}-\d{4}$" type="tel" placeholder="Ex: (xxx x xxxx-xxx)"><br>
+                        <!--
+                         Url<br/>
+                        <input type="url" name="url" placeholder="http://odontologia.com.br"><br/>
+                        Search<br>
+                        <input type="Search" name="Search" placeholder="Ex: Minhas consultas"><br> 
+                        Genero<br>
+                        Feminino<input type="radio" name="sexo" id="sexo"><br>
+                        Masculino<input type="radio" name="sexo" id="sexo"><br>
+                        -->
+                        Data de nacimento<br>
+                        <input type="date" name="data"><br>
+                        Descrição
+                        <br>
+                        <textarea placeholder="Ex: Elogio, dúvida ou crítica para resolução"></textarea><br>
+                        <!--
+                         Tipo de pagamento<br>
+                        Dinheiro<input type="checkbox" name="dinheiro" id="dinheiro"><br>
+                        Cartão<input type="checkbox" name="cartao" id="cartao"><br> -->
+                        <br>
+                        <input type="submit" name="Enviar" value="Enviar">
+                    </form>
+    	            
+    	            <p> Seu contato será respondido em menos de 48 Horas !!</p>
+                </div>
+            </div>
+        </div>
+        <footer> todos direitos reservados </footer>
+    </body>
+</html>

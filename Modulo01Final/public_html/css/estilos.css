@@ -1,0 +1,238 @@
+* {
+	margin:0;
+	padding:0;
+	}
+
+
+
+html{
+	position: relative;
+    min-height: 100%;
+	background-color: #8DB6CD;
+}
+
+body {
+	text-align:center;                     
+	background-color: #EDEDED; 
+	border:0;
+	border-top: 3px solid;
+	border-color: #8DB6CD;
+	}
+	h1{
+		color: #8DB6CD;
+		text-shadow: #000 1px 1px;
+	}
+
+header{
+
+	background-color: #EDEDED;
+}
+
+video{
+	border:5px solid;
+	border-color: #8DB6CD;
+}
+
+/*footer{
+	margin-left: 0px;
+	background-color: #8DB6CD;
+	position:fixed;
+    bottom:0;
+    width:100%;
+}
+*/
+footer {
+	background-color: #EDEDED;
+    position:absolute;
+    bottom:0;
+    margin-top: 98%;
+    width:100%;
+   
+}
+
+p { 
+	margin:10px 0;
+	display: block;
+}
+
+nav{
+	border-top: 5px solid;
+	border-color: #8DB6CD;
+}
+/*configurações de ID*/
+
+#menu ul {
+	border-bottom: 5px solid;
+	border-color: #8DB6CD;
+	padding:0px; 
+	margin:0px; 
+	background-color:#EDEDED; 
+	list-style:none;
+}
+#menu ul li { 
+	display: inline; 
+}
+
+#menu ul li a { padding: 2px 10px; 
+	display: inline-block;
+    background-color:#EDEDED; 
+    color: #8DB6CD; 
+    text-shadow: #000 1px 1px;
+    font: 25px;
+    text-decoration: none; 
+    border-bottom:3px solid #EDEDED;
+}
+/* formatar os links */
+#menu ul li a:hover { background-color:#D6D6D6; 
+	color: #6D6D6D; 
+	border-bottom:3px solid #B6DBFF;
+}
+#conteiner{
+	position: relative;
+	background-color: #8DB6CD;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+#pagina{
+	width: 676px;
+	margin: auto;
+	float: none; /*desnecessário*/
+	background-color: #EDEDED;
+}
+
+#banner{
+	width: 100%;
+}
+#seletor{
+	margin-top: 10px;
+}
+
+
+
+/*configurações de classes*/
+.demostra{
+padding-bottom: 10px;
+}
+
+.demostra img{
+width:100% ;
+}
+
+.videos{
+	margin-top: 10px;
+	width: 300px;
+	margin: 10px;
+}
+/*configuração do slide*/
+#imagens{
+	margin:0 auto;
+	padding:10px;width:600px;
+	height:300px;
+	margin-top:50px;
+	border-radius:5px;
+}
+#imagens ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	border-radius:5px;
+}
+#imagens ul li img{
+	border-radius:25px;
+}
+#imagens .pag{
+	margin:20px 0 0 0;
+}
+#imagens .pag #pager a{
+	margin-left: 5px;
+}
+
+
+@media screen and (max-width: 1345px) 
+			   {
+	#conteiner{
+		width:100%;
+	}
+	#pagina{
+		width: 683px;
+		margin: auto;
+	}
+	
+	.videos {
+		margin:0;
+		margin-bottom: 5px;
+		margin-top: 10px;
+	}
+	.demostra{
+	padding-top: 0;
+	}
+
+@media screen and (max-width: 700px){
+	#imagens{
+	margin:auto;
+	padding:0;
+	width:100%;
+	}
+	#imagens ul{
+	margin:auto 0 0 0;
+	padding:0;
+	border-radius:0;
+	width:100%;
+	}
+	#imagens ul li img{
+	width:100%;
+	height:300px;
+	}
+	#pagina{
+	width: 100%;
+	margin: auto;
+	}
+	#pagina video{
+		width: 100%;
+		padding: 0;
+		margin: 0 0 3px 0;
+		border: none;
+	}
+	div .demostra {
+		width: 100%;
+		padding: 0;
+	}
+
+}
+@media screen and (max-width: 450px) {
+	#imagens{
+	margin:0;
+	padding:0;
+	width:100%;
+	}
+	#imagens ul{
+	width:100%;
+	}
+	#imagens ul li{
+	width:100%;
+	height:300px;
+	border-radius:0;
+	}
+
+	#imagens ul li img{
+	width:100%;
+	height:300px;
+	}
+
+	#pagina{
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	}
+
+	.demostra{
+		padding: 0;
+		margin: 0 0 3px 0;
+		border: none;
+	}
+
+
+}
